@@ -1,0 +1,39 @@
+ .container {
+  width: 100%;
+  margin:0 auto;
+  /* max-width: 1640px; */
+  /* padding: 0 15px; */
+} 
+
+/* body {
+  background-color: red;
+}
+
+@media (orientation:portrait) {
+  body {
+    background-color: rgb(157, 180, 163);
+  }
+} */
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .profolio-inner-sec 
+    {
+        flex-direction: column;
+    }
+    .right
+    {
+     width: 100%;
+     grid-auto-rows: 220px;
+    }
+    .box
+    {
+        grid-row: 1 span;
+        grid-column: 3 span;
+    }
+}
